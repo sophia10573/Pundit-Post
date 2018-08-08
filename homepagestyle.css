@@ -1,34 +1,39 @@
 .title {
   text-align: center;
-  font-family: Serif;
-  font-size: 50px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  font-family:'Fredericka the Great';
+  font-size: 70px;
 }
 
 .row:after {
     content: "";
     display: table;
     clear: both;
+    height: 600px;
 }
 
 .newshighlights {
   text-align: center;
-  margin-top: 50px;
+  /* margin-top: 50px; */
   width: 33%;
   float: right;
-  font-size: 30px;
+  line-height: 1.6;
 }
 
 .mission{
   text-align: center;
-  margin-top: 50px;
+  margin-top: 20px;
   width: 66%;
   float: left;
 }
 
 .missiontext{
+  text-indent: 50px;
   text-align: left;
-  margin-top: 50px;
+  margin-top: 20px;
   font-family: georgia;
+  line-height: 1.6;
 }
 
 
@@ -76,8 +81,8 @@
     background-color: #333;
     color: white;
     padding: 16px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 35px;
+    padding-right: 35px;
     font-size: 16px;
     border: none;
 }
