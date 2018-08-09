@@ -1,24 +1,77 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <h1>Rights</h1>
+      <link rel = "stylesheet" href="homepagestyle.css">
+        <link href='https://fonts.googleapis.com/css?family=Fredericka the Great' rel='stylesheet'>
   </head>
   <body>
-    <img src = "mirandawarning.jpeg" alt = "Miranda Rights">
-    <h2>What are Miranda rights?</h2>
-      <p>“You have the right to remain silent. Anything you say can and will be used against you in a court of law. You have the right to an attorney. If you cannot afford an attorney, one will be provided for you. Do you understand the rights I have just read to you? With these rights in mind, do you wish to speak to me?”</p>
-      <p><div>Your right to silence in America are known as Miranda rights. 
-      The purpose of Miranda rights are to keep statements made during interrogation admissible during later criminal proceedings and being protected from self-incrimination under the fifth amendment. 
-      Before questioning can proceed the suspect must voluntarily waive their miranda rights.
-      The waiving of Miranda rights must be clear. 
-      If you waive your rights and change your mind during questioning you can ‘plead the fifth’ meaning no more questions have to be asked and you can have an attorney present. 
-      If you don’t waive your rights and invoke your right to remain silent you are not required to speak during questioning and can ask for an attorney present. 
-      If a minor is called into questioning the police don’t need parent consent but, parents can refuse for them to be questioned.</div></p>
-    <h2>More rights</h2>
-      <p><div>You can say no if police ask permission to search you or your things.</div></p>
-      <p><div>You can leave unless being detained or arrested. If being arrested or detained you have a right to know why and speak privately to a lawyer.</div></p>
-      <p><div>You can only be strip searched by officers in private of the same sex.</div></p>
-      <p><div>You have a right to know an officers name and badge number.</div></p>
-      <p><div>You can report officers who abuse you, swear at you, or violate your rights.</div></p>
+    <div style="text-align:center;">
+    <button class="title" onclick="location.href='homepage.html'">Pundit Post</button>
+  </div>
+    <div class="topnav">
+      <input id="userInput" type="text" placeholder="Search..">
+    </div>
+  <div class="navbar">
+ <div class="dropdown">
+   <button class="dropbtn" onclick="location.href='government.html'">What Is Our Government?</button>
+   <div class="dropdown-content">
+     <a href="history.html">History</a>
+     <a href="figures.html">Figures & Positions</a>
+     <a href="rights.html">Rights</a>
+   </div>
+ </div>
+ <div class="dropdown">
+   <button class="dropbtn" onclick="location.href='news.html'">News</button>
+   <div class="dropdown-content">
+     <a href="social.html">Social</a>
+     <a href="political.html">Political</a>
+     <a href="economic.html">Economic</a>
+     <a href="global.html">Global</a>
+   </div>
+ </div>
+ <div class="dropdown">
+   <button class="dropbtn" onclick="location.href='howto.html'">"How-To"</button>
+ </div>
+ <div class="dropdown">
+   <button class="dropbtn" onclick="location.href='glossary.html'">Glossary</button>
+ </div>
+ <div class="dropdown" onclick="location.href='map.html'">
+   <button class="dropbtn">Map</button>
+ </div>
+ <div class="dropdown" onclick="location.href='cartoons.html'">
+   <button class="dropbtn">Cartoons & Propaganda</button>
+   <div class="dropdown-content">
+     <a href="polcar.html">Political Cartoons</a>
+     <a href="signs.html">Propaganda & Signs</a>
+     <a href="tweets.html">Tweets and Slogans</a>
+   </div>
+ </div>
+ <div class="dropdown" onclick="location.href='whycare.html'">
+   <button class="dropbtn">Why Should I Care?</button>
+ </div>
+ <button onclick = "search()" class="searchbtn">
+   <img src="https://png2.kisspng.com/20180330/qsq/kisspng-computer-icons-search-box-or-5abdd581bc84a0.0830602115223904017722.png" width="10">
+  </button>
+</div>
+ <div id="searchresults"></div>
+ <h1>Rights</h1>
+ <img src = "mirandawarning.jpeg" alt = "Miranda Rights">
+   <h2>What are Miranda rights?</h2>
+     <p>“You have the right to remain silent. Anything you say can and will be used against you in a court of law. You have the right to an attorney. If you cannot afford an attorney, one will be provided for you. Do you understand the rights I have just read to you? With these rights in mind, do you wish to speak to me?”</p>
+     <p><div>Your right to silence in America are known as Miranda rights.
+     The purpose of Miranda rights are to keep statements made during interrogation admissible during later criminal proceedings and being protected from self-incrimination under the fifth amendment.
+     Before questioning can proceed the suspect must voluntarily waive their miranda rights.
+     The waiving of Miranda rights must be clear.
+     If you waive your rights and change your mind during questioning you can ‘plead the fifth’ meaning no more questions have to be asked and you can have an attorney present.
+     If you don’t waive your rights and invoke your right to remain silent you are not required to speak during questioning and can ask for an attorney present.
+     If a minor is called into questioning the police don’t need parent consent but, parents can refuse for them to be questioned.</div></p>
+   <h2>More rights</h2>
+     <p><div>You can say no if police ask permission to search you or your things.</div></p>
+     <p><div>You can leave unless being detained or arrested. If being arrested or detained you have a right to know why and speak privately to a lawyer.</div></p>
+     <p><div>You can only be strip searched by officers in private of the same sex.</div></p>
+     <p><div>You have a right to know an officers name and badge number.</div></p>
+     <p><div>You can report officers who abuse you, swear at you, or violate your rights.</div></p>
   </body>
+  <script type="text/javascript" src="content.js"></script>
+  <script type="text/javascript" src="homepage.js"></script>
 </html>
