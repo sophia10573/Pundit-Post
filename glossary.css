@@ -1,9 +1,28 @@
 #letters {
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 900;
   margin-left: 10px;
+  color: #000080;
+  margin-top: 10px;
 }
 
 #defs {
+  font-size: 20px;
+}
 
+body {
+  line-height:1.6;
+}
+
+#letter_links {
+  font-size: 20px;
+  text-align: center;
+}
+
+#heading {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 40px;
+  font-weight: 900;
+  margin-bottom: 10px;
 }
