@@ -1,7 +1,54 @@
 <!DOCTYPE html>
 <html>
   <head>
+      <link rel = "stylesheet" href="homepagestyle.css">
+        <link href='https://fonts.googleapis.com/css?family=Fredericka the Great' rel='stylesheet'>
   </head>
   <body>
+    <div style="text-align:center;">
+    <button class="title" onclick="location.href='homepage.html'">Pundit Post</button>
+  </div>
+    <div class="topnav">
+      <input id="userInput" type="text" placeholder="Search..">
+    </div>
+  <div class="navbar">
+ <div class="dropdown">
+   <button class="dropbtn" onclick="location.href='government.html'">What Is Our Government?</button>
+   <div class="dropdown-content">
+     <a href="history.html">History</a>
+     <a href="figures.html">Figures & Positions</a>
+     <a href="rights.html">Rights</a>
+   </div>
+ </div>
+ <div class="dropdown">
+   <button class="dropbtn" onclick="location.href='news.html'">News</button>
+ </div>
+ <div class="dropdown">
+   <button class="dropbtn" onclick="location.href='howto.html'">"How-To"</button>
+ </div>
+ <div class="dropdown">
+   <button class="dropbtn" onclick="location.href='glossary.html'">Glossary</button>
+ </div>
+ <div class="dropdown" onclick="location.href='map.html'">
+   <button class="dropbtn">Map</button>
+ </div>
+ <div class="dropdown" onclick="location.href='cartoons.html'">
+   <button class="dropbtn">Cartoons & Propaganda</button>
+   <div class="dropdown-content">
+     <a href="polcar.html">Political Cartoons</a>
+     <a href="signs.html">Propaganda & Signs</a>
+     <a href="tweets.html">Tweets and Slogans</a>
+   </div>
+ </div>
+ <div class="dropdown" onclick="location.href='whycare.html'">
+   <button class="dropbtn">Why Should I Care?</button>
+ </div>
+ <button onclick = "search()" class="searchbtn">
+   <img src="https://png2.kisspng.com/20180330/qsq/kisspng-computer-icons-search-box-or-5abdd581bc84a0.0830602115223904017722.png" width="10">
+  </button>
+</div>
+ <div id="searchresults"></div>
   </body>
+  <script type="text/javascript" src="content.js"></script>
+  <script type="text/javascript" src="homepage.js"></script>
 </html>

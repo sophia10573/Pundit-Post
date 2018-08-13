@@ -1,109 +1,163 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <h1> Figures and Positions in the Government </h1> 
+      <link rel = "stylesheet" href="homepagestyle.css">
+        <link href='https://fonts.googleapis.com/css?family=Fredericka the Great' rel='stylesheet'>
+      <link rel = "stylesheet" href="figures.css">
   </head>
   <body>
-   <p> The President of the United States: Currently Donald Trump 
-       <img src="trump.jpeg" width="1000" height="500">
+    <div style="text-align:center;">
+    <button class="title" onclick="location.href='homepage.html'">Pundit Post</button>
+  </div>
+    <div class="topnav">
+      <input id="userInput" type="text" placeholder="Search..">
+    </div>
+  <div class="navbar">
+ <div class="dropdown">
+   <button class="dropbtn" onclick="location.href='government.html'">What Is Our Government?</button>
+   <div class="dropdown-content">
+     <a href="history.html">History</a>
+     <a href="figures.html">Figures & Positions</a>
+     <a href="rights.html">Rights</a>
+   </div>
+ </div>
+ <div class="dropdown">
+   <button class="dropbtn" onclick="location.href='news.html'">News</button>
+ </div>
+ <div class="dropdown">
+   <button class="dropbtn" onclick="location.href='howto.html'">"How-To"</button>
+ </div>
+ <div class="dropdown">
+   <button class="dropbtn" onclick="location.href='glossary.html'">Glossary</button>
+ </div>
+ <div class="dropdown" onclick="location.href='map.html'">
+   <button class="dropbtn">Map</button>
+ </div>
+ <div class="dropdown" onclick="location.href='cartoons.html'">
+   <button class="dropbtn">Cartoons & Propaganda</button>
+   <div class="dropdown-content">
+     <a href="polcar.html">Political Cartoons</a>
+     <a href="signs.html">Propaganda & Signs</a>
+     <a href="tweets.html">Tweets and Slogans</a>
+   </div>
+ </div>
+ <div class="dropdown" onclick="location.href='whycare.html'">
+   <button class="dropbtn">Why Should I Care?</button>
+ </div>
+ <button onclick = "search()" class="searchbtn">
+   <img src="https://png2.kisspng.com/20180330/qsq/kisspng-computer-icons-search-box-or-5abdd581bc84a0.0830602115223904017722.png" width="10">
+  </button>
+</div>
+ <div id="searchresults">
+    <h1> Figures and Positions in the Government </h1>
+    <br><br>
+  <img id="posbreakdown"src="positionsbreakdown.jpg" width="1000" height="500">
+  <br><br><br>
+  <div id = "figurestext">
+    <p> *The red font indicates that the current administration is controlled by the Republican party </p>
+    <br>
+       <img id= "pic" src="trump.jpeg" width="1000" height="500">
+    <p> The President of the United States: Currently Donald Trump
    </p>
    <br>
-   <p> Vice-President of the United States: Currently Michael Pence
-     <img src="pence.jpeg" width="1000" height="500">
+     <img id= "pic"src="pence.jpeg" width="1000" height="500">
+    <p> Vice-President of the United States: Currently Michael Pence
    </p>
    <br>
-   <p> Department of State: Currently Secretary Michael R. Pompeo
-     <img src="pompeo.jpeg" width="1000" height="500">
+     <img id= "pic"src="pompeo.jpeg" width="1000" height="500">
+    <p> Department of State: Currently Secretary Michael R. Pompeo
    </p>
    <br>
-   <p> Department of Treasury: Currently Secretary Steven Mnuchin
-      <img src="mnuchin.jpeg" width="1000" height="500">
+      <img id= "pic"src="mnuchin.jpeg" width="1000" height="500">
+    <p> Department of Treasury: Currently Secretary Steven Mnuchin
    </p>
    <br>
-   <p> Department of Defense: Currently Secretary James N. Mattis
-     <img src="mattis.jpeg" width="1000" height="500">
+     <img id= "pic"src="mattis.jpeg" width="1000" height="500">
+     <p> Department of Defense: Currently Secretary James N. Mattis
    </p>
    <br>
-   <p> Department of Justice: Currently Secretary Menardo Guevarra
-     <img src="guevarra2.jpeg" width="1000" height="500">
+     <img id= "pic"src="guevarra2.jpeg" width="1000" height="500">
+     <p> Department of Justice: Currently Secretary Menardo Guevarra
    </p>
    <br>
-   <p> Department of the Interior: Currently Secretary Ryan Zinke
-     <img src="zinke.jpeg" width="1000" height="500">
+     <img id= "pic"src="zinke.jpeg" width="1000" height="500">
+    <p> Department of the Interior: Currently Secretary Ryan Zinke
    </p>
    <br>
-   <p> Department of Agriculture: Currently Secretary Sonny Perdue
-     <img src="perdue.jpeg" width="1000" height="500">
+     <img id= "pic"src="perdue.jpeg" width="1000" height="500">
+    <p> Department of Agriculture: Currently Secretary Sonny Perdue
    </p>
    <br>
-   <p> Department of Commerce: Currently Secretary Wilbur Ross
-      <img src="ross.jpeg" width="1000" height="500">
+      <img id= "pic"src="ross.jpeg" width="1000" height="500">
+    <p> Department of Commerce: Currently Secretary Wilbur Ross
    </p>
    <br>
-   <p> Department of Education: Currently Secretary Betsy DeVos
-      <img src="devos2.jpeg" width="1000" height="500">
+      <img id= "pic"src="devos2.jpeg" width="1000" height="500">
+    <p> Department of Education: Currently Secretary Betsy DeVos
    </p>
    <br>
-   <p> Department of Transportation: Currently Secretary Elaine Chao
-      <img src="chao2.jpeg" width="1000" height="500">
+      <img id= "pic"src="chao2.jpeg" width="1000" height="500">
+    <p> Department of Transportation: Currently Secretary Elaine Chao
    </p>
    <br>
-   <p> Department of Energy: Currently Secretary Rick Perry
-     <img src="perry3.jpeg" width="1000" height="500">
+     <img id= "pic"src="perry3.jpeg" width="1000" height="500">
+    <p> Department of Energy: Currently Secretary Rick Perry
    </p>
    <br>
-   <p> Department of Labor: Currently Secretary Alexander Acosta
-      <img src="acosta.jpeg" width="1000" height="500">
+      <img id= "pic"src="acosta.jpeg" width="1000" height="500">
+     <p> Department of Labor: Currently Secretary Alexander Acosta
    </p>
    <br>
-   <p> Department of Health and Human Services: Currently Secretary Eric Hargan
-     <img src="hargan2.jpeg" width="1000" height="500">
+     <img id= "pic"src="hargan2.jpeg" width="1000" height="500">
+     <p> Department of Health and Human Services: Currently Secretary Eric Hargan
    </p>
    <br>
-   <p> Department of Housing and Urban Development: Currently Secretary Ben Carson
-      <img src="carson2.jpeg" width="1000" height="500">
+      <img id= "pic"src="carson2.jpeg" width="1000" height="500">
+    <p> Department of Housing and Urban Development: Currently Secretary Ben Carson
    </p>
    <br>
-   <p> Department of Homeland Security: Currently Secretary Kirstjen Nielsen
-      <img src="nielsen" width="1000" height="500">
+      <img id= "pic"src="nielsen.jpeg" width="1000" height="500">
+    <p> Department of Homeland Security: Currently Secretary Kirstjen Nielsen
    </p>
    <br>
-   <p> Department of Veterans Affairs: Currently Secretary Robert Wilkie
-      <img src="wilkie.jpeg" width="1000" height="500">
+      <img id= "pic"src="wilkie.jpeg" width="1000" height="500">
+    <p> Department of Veterans Affairs: Currently Secretary Robert Wilkie
    </p>
-   <br> 
-   <p> Attorney General: Currently Jeff Sessions
-     <img src="sessions.jpeg" width="1000" height="500">
+   <br>
+     <img id= "pic"src="sessions.jpeg" width="1000" height="500">
+    <p> Attorney General: Currently Jeff Sessions
    </p>
-   <br> 
-   <p> White House Chief of Staff: Currently John F. Kelly 
-      <img src="kelly.jpeg" width="1000" height="500">
+   <br>
+      <img id= "pic"src="kelly.jpeg" width="1000" height="500">
+    <p> White House Chief of Staff: Currently John F. Kelly
    </p>
-   <br> 
-   <p> Director of the Central Intelligence Agency: Currently Gina Haspel
-     <img src="haspel.jpeg" width="1000" height="500">
+   <br>
+     <img id= "pic"src="haspel.jpeg" width="1000" height="500">
+    <p> Director of the Central Intelligence Agency: Currently Gina Haspel
    </p>
-   <br> 
-   <p> Director of National Intelligence: Currently Daniel Coats
-     <img src="coats2.jpeg" width="1000" height="500">
+   <br>
+     <img id= "pic"src="coats2.jpeg" width="1000" height="500">
+    <p> Director of National Intelligence: Currently Daniel Coats
    </p>
-   <br> 
-   <p> Representative of the United States to the United Nations: Currently Nikki R. Haley
-      <img src="haley2.jpeg" width="1000" height="500">
+   <br>
+      <img id= "pic"src="haley2.jpeg" width="1000" height="500">
+    <p> Representative of the United States to the United Nations: Currently Nikki R. Haley
    </p>
-   <br> 
-   <p> U.S. Trade Representative: Currently Robert Lighthizer
-     <img src="lighthizer.jpeg" width="1000" height="500">
+   <br>
+     <img id= "pic"src="lightizer.jpeg" width="1000" height="500">
+    <p> U.S. Trade Representative: Currently Robert Lighthizer
    </p>
-   <br> 
-   <p> Director of the Office of Management and Budget: Currently Mick Mulvaney
-     <img src="mulvaney.jpeg" width="1000" height="500">
+   <br>
+     <img id= "pic"src="mulvaney.jpeg" width="1000" height="500">
+    <p> Director of the Office of Management and Budget: Currently Mick Mulvaney
    </p>
-   <br> 
-   <p> Administrator of the Small Business Administration: Currently Linda E. McMahon
-     <img src="mcmahon.jpeg" width="1000" height="500">
+   <br>
+     <img id= "pic"src="mcmahon.jpeg" width="1000" height="500">
+    <p> Administrator of the Small Business Administration: Currently Linda E. McMahon
    </p>
-   <br> 
-
+   <br>
+  </div>
   </body>
+  <script type="text/javascript" src="content.js"></script>
+  <script type="text/javascript" src="homepage.js"></script>
 </html>

@@ -3,11 +3,15 @@
   <head>
     <link rel = "stylesheet" href="homepagestyle.css">
     <link href='https://fonts.googleapis.com/css?family=Fredericka the Great' rel='stylesheet'>
+    <link rel= "stylesheet" href="historyst"
   </head>
   <body>
-    <div class = "title">Pundit Post</div>
-      <div class="topnav">
-        <input type="text" placeholder="Search..">
+    <div style="text-align:center;">
+    <button class="title" onclick="location.href='homepage.html'">Pundit Post</button>
+      <img id="logo" src= "handsholding.jpg">
+  </div>
+      <div class="topnav" method= "GET">
+        <input id="userInput" type="text" placeholder="Search..">
       </div>
     <div class="navbar">
    <div class="dropdown">
@@ -20,12 +24,6 @@
    </div>
    <div class="dropdown">
      <button class="dropbtn" onclick="location.href='news.html'">News</button>
-     <div class="dropdown-content">
-       <a href="social.html">Social</a>
-       <a href="political.html">Political</a>
-       <a href="economic.html">Economic</a>
-       <a href="global.html">Global</a>
-     </div>
    </div>
    <div class="dropdown">
      <button class="dropbtn" onclick="location.href='howto.html'">"How-To"</button>
@@ -47,23 +45,34 @@
    <div class="dropdown" onclick="location.href='whycare.html'">
      <button class="dropbtn">Why Should I Care?</button>
    </div>
+   <button onclick = "search()" class="searchbtn">
+     <img src="https://png2.kisspng.com/20180330/qsq/kisspng-computer-icons-search-box-or-5abdd581bc84a0.0830602115223904017722.png" width="10">
+    </button>
  </div>
+ <div id="searchresults"></div>
     <div class = "row">
       <h2 class = "mission">Our Mission</h2>
-      <h2 class = "newshighlights">News Highlights</h2>
+      <h2 class = "newshighlights">Daily News Highlights</h2>
 
-        <div class = "mission missiontext">
+        <div class = "mission missiontext" id="mission">
             Pundit Post is a place where all people can go in order to learn more about how America’s government works and what exactly happens behind the curtains. The world of the U.S. government can get confusing, so it is difficult to keep up with the whirling world of commotion. Luckily, we understand what that’s like. As the future generation, it is vital that we know what happens in our government so that we can have a voice to make any changes that we wish to see. Yes, we can talk about the government and we have heard about all of the news and the fancy vocabulary, but do we actually comprehend how everything operates?
             <p class = "missiontext">This website includes everything you need to know about what is currently happening in the American world of politics and what you can personally do to be involved. Here, you can learn about what exactly is our government and all of the branches that hold it up to make it work the way it does. You can also learn about the roles of the American people on our “How-To” page, containing topics such as how to vote, protests and voting your opinion out in the public, and more safe ways to be involved. We want you to understand what people are talking about when the subject of politics is brought up, so we even have a vocab page - just because you actually want to master the terms you’re using. We also have an interactive map in which you can see each state’s representatives and laws so that you can learn more about each state’s happenings. To show off what you can use to speak your mind, we even include a fun page where you can see awesome art and signs that were seen at protests and other gatherings. A crucial part of our mission is to spread the news that is coming everywhere from different parts of the world. We have a news page where you can know what is currently going on in the world - locally and globally. We believe that in order to make a change you should see other changes first in order to make an impact. It is essential to learn more about the relationships between the U.S. and other countries and how things that change the world also influence the U.S. and it what ways.
-              <p class="missiontext">News is one of our main focuses because we want others to be informed and inspired to make a change for all of the good and evil seen within the country. Most importantly, we want you to understand why you should care. A change cannot be seen if you do not care about what you are trying to impact. We want you to promote your change in your own unique voice, which is why we have a “Why You Should Care” page on our website. The future will only change in your favor if you do what is seen as just and right. As Eleanor Roosevelt once said, “The future belongs to those who believe in the beauty of their dreams.”
-                <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+            <p class="missiontext">News is one of our main focuses because we want others to be informed and inspired to make a change for all of the good and evil seen within the country. Most importantly, we want you to understand why you should care. A change cannot be seen if you do not care about what you are trying to impact. We want you to promote your change in your own unique voice, which is why we have a “Why You Should Care” page on our website. The future will only change in your favor if you do what is seen as just and right. As Eleanor Roosevelt once said, “The future belongs to those who believe in the beauty of their dreams.”
+              </p>
+              <br><p>
+                News Highlights Courtesy of Google News API https://newsapi.org/
               </p>
             </p>
         </div>
-        <div id="newshighlights">
+        <div id ="newshighlights">
         </div>
     </div>
   </body>
   <script src="menubartest.js"></script>
   <script src="newsapi.js"></script>
+  <script src = "search.js"></script>
+  <script type="text/javascript" src="content.js"></script>
+  <script type="text/javascript" src="homepage.js">
+  </script>
+
 </html>

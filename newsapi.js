@@ -10,8 +10,11 @@ var response = JSON.parse(newsRequest.responseText);
 //len(thing) = thing.length
 for (var i = 0; i < response["articles"].length; i++){
   var title = response["articles"][i]["title"]
+  var source = response["articles"][i]["source"]["name"]
   console.log(title)
   var newsdiv = document.getElementById("newshighlights");
   newsdiv.innerHTML+=title;
+  newsdiv.innerHTML += "<br>";
+  newsdiv.innerHTML += source;
   newsdiv.innerHTML += "<br><br>";
 }
