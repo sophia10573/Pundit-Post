@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 32.5%;
+    padding: 10px;
+    height: 950px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#title {
+  font-size: 35px;
+  color: #000080;
+}
+
+#sec_title {
+  font-size: 30px;
+  color: #000080;
+
+}
+
+#branches {
+  text-indent: 50px;
+}
+
+#branchtitle {
+  text-align: center;
+  font-size: 30px;
+    color: #000080;
+}
+
+body {
+  line-height: 1.6;
+}
+
+.govttitle {
+  text-align: center;
+}
+
+#govtimage {
+  width: 150px;
+  height: 150px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width: 400px;
+    margin-top: 20px;
+}
