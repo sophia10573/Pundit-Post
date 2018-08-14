@@ -13,12 +13,12 @@
   border: none;
 }
 
-.row:after {
+/* .row:after {
     content: "";
     display: table;
     clear: both;
     height: 600px;
-}
+} */
 
 .newshighlights {
   text-align: center;
@@ -148,13 +148,6 @@
   margin-top: 8px;
   font-size: 17px;
   background-color: #e9e9e9;
-  /* float: right;
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 15px 16px;
-  text-decoration: none;
-  font-size: 15px; */
 }
 
 #map{
@@ -172,4 +165,33 @@
 #maptitle{
   text-align: center;
   margin-top: 60px;
+  color: #BD0B0B;
+}
+
+.pagetitle{
+  font-size: 35px;
+}
+
+body{
+  font-family:georgia;
+}
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: gray; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
 }

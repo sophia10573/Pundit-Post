@@ -1,0 +1,24 @@
+h1{
+  text-align: center;
+  font-size: 35px;
+  color: #BD0B0B;
+}
+
+h2{
+  font-size: 25px;
+  margin-left: 80px;
+  margin-right: 80px;
+  color: #BD0B0B;
+}
+
+p{
+  font-size: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+#pic{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}

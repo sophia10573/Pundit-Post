@@ -6,30 +6,18 @@
     float: left;
     width: 32.5%;
     padding: 10px;
-    height: 1000px;
+    height: 950px;
     border: 2px solid black;
     border-radius: 5px;
     margin-right: 5px;
     margin-left: 5px;
 }
 
-.column_parties {
-    float: left;
-    width: 44%;
-    padding: 10px;
-    height: 850px;
-    border: 2px solid black;
-    border-radius: 5px;
-    margin-right: 35px;
-    margin-left: 35px;
-    margin-bottom: 30px;
-}
-
-.row:after {
+/* .row:after {
     content: "";
-    display: none;
+    display: table;
     clear: both;
-}
+}*/
 
 #title {
   font-size: 35px;

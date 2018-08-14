@@ -1,0 +1,36 @@
+h1{
+  text-align: center;
+  font-size: 35px;
+  color: #BD0B0B;
+}
+
+#miranda{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 300px;
+  width: 800px;
+}
+
+h2{
+  margin-left: 50px;
+  font-size: 25px;
+  color:#BD0B0B;
+}
+#citizen{
+  margin-left: 100px;
+  margin-right: 80px;
+  font-size: 20px;
+}
+
+#noncitizen{
+    margin-left: 100px;
+    margin-right: 80px;
+    font-size: 20px;
+}
+
+#policerights{
+  margin-left: 100px;
+  margin-right: 80px;
+  font-size: 20px;
+}

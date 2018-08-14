@@ -11,10 +11,14 @@ var response = JSON.parse(newsRequest.responseText);
 for (var i = 0; i < response["articles"].length; i++){
   var title = response["articles"][i]["title"]
   var source = response["articles"][i]["source"]["name"]
+  var url = response["articles"][i]["url"]
+  console.log("url is "+url)
   console.log(title)
   var newsdiv = document.getElementById("newshighlights");
-  newsdiv.innerHTML+=title;
+  newsdiv.innerHTML += "<a href='" + url + "'>" + title + "</a>"
   newsdiv.innerHTML += "<br>";
   newsdiv.innerHTML += source;
+  newsdiv.innerHTML += "<br>";
   newsdiv.innerHTML += "<br><br>";
+  newsdiv.innerHTML += "</a>"
 }
