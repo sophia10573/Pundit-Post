@@ -1,0 +1,32 @@
+h1{
+  text-align: center;
+  color:#000080;
+  font-size: 35px;
+}
+
+h2{
+  margin-right: 80px;
+  margin-left: 80px;
+  font-size: 25px;
+  text-indent: 20px;
+}
+
+p{
+  margin-right: 80px;
+  margin-left: 80px;
+  font-size: 20px;
+  line-height: 30px;
+  text-indent: 20px;
+}
+
+#pic{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+  width: 500px;
+}
+
+#america{
+  font-size: 20px;
+}
